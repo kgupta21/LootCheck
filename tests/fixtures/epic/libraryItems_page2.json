@@ -1,0 +1,11 @@
+{
+  "records": [
+    {
+      "appName": "PluginAsset",
+      "namespace": "ue",
+      "catalogItemId": "catalog-plugin",
+      "sandboxType": "PUBLIC"
+    }
+  ],
+  "paging": {}
+}

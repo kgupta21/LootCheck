@@ -1,0 +1,14 @@
+{
+  "games": [
+    {
+      "appName": "AlanWake2",
+      "title": "Alan Wake 2",
+      "catalogItem": {
+        "id": "alan-wake-2",
+        "title": "Alan Wake 2",
+        "categories": [{ "path": "applications" }],
+        "productSlug": "alan-wake-2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "records": [
+    {
+      "appName": "FortniteTestGame",
+      "namespace": "fn",
+      "catalogItemId": "catalog-game",
+      "sandboxType": "PUBLIC"
+    }
+  ],
+  "paging": {
+    "nextCursor": "page-2"
+  }
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "app_name": "Basilisk",
+    "app_title": "Hades",
+    "metadata": {
+      "id": "hades-catalog",
+      "title": "Hades",
+      "categories": [{ "path": "applications" }],
+      "urlSlug": "hades"
+    }
+  },
+  {
+    "app_name": "Wombat",
+    "app_title": "The Witcher 3: Wild Hunt - Complete Edition",
+    "metadata": {
+      "id": "witcher-3-catalog",
+      "title": "The Witcher 3: Wild Hunt - Complete Edition",
+      "categories": [{ "path": "applications" }],
+      "urlSlug": "the-witcher-3-wild-hunt"
+    },
+    "playtime_minutes": 123
+  },
+  {
+    "app_name": "DlcOnly",
+    "app_title": "Fixture DLC",
+    "is_dlc": true,
+    "metadata": {
+      "id": "fixture-dlc",
+      "title": "Fixture DLC",
+      "categories": [{ "path": "addons" }],
+      "mainGameItem": { "id": "base-game" }
+    }
+  }
+]

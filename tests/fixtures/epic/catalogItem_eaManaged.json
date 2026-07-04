@@ -1,0 +1,8 @@
+{
+  "id": "catalog-ea",
+  "title": "Fixture EA Managed Game",
+  "categories": [{ "path": "applications" }],
+  "customAttributes": {
+    "isEAManaged": { "value": "true" }
+  }
+}

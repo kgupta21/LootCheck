@@ -1,0 +1,8 @@
+{
+  "access_token": "fixture.epic.refreshed.access",
+  "refresh_token": "fixture.epic.refreshed.refresh",
+  "expires_in": 3600,
+  "token_type": "bearer",
+  "scope": "epic_library",
+  "account_id": "epic-account-1"
+}

@@ -1,0 +1,5 @@
+{
+  "id": "catalog-plugin",
+  "title": "Fixture Plugin",
+  "categories": [{ "path": "applications" }, { "path": "plugins" }]
+}

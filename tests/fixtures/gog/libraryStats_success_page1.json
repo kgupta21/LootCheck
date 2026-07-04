@@ -1,0 +1,13 @@
+{
+  "page": 1,
+  "totalPages": 2,
+  "items": [
+    {
+      "id": "1086940",
+      "title": "Baldur's Gate 3",
+      "slug": "baldurs_gate_3",
+      "playtimeSeconds": 3660,
+      "lastSession": 1700000000
+    }
+  ]
+}

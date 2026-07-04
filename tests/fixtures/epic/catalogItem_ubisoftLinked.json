@@ -1,0 +1,8 @@
+{
+  "id": "catalog-ubisoft",
+  "title": "Fixture Ubisoft Linked Game",
+  "categories": [{ "path": "applications" }],
+  "customAttributes": {
+    "isUbisoftLinked": { "value": "true" }
+  }
+}

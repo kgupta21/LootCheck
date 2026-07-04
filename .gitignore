@@ -1,0 +1,10 @@
+node_modules/
+dist/
+dist-firefox/
+dist-chrome/
+packages/
+.DS_Store
+coverage/
+.env
+.env.*
+*.log

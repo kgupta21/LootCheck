@@ -1,0 +1,6 @@
+{
+  "id": "catalog-launchable-dlc",
+  "title": "Fixture Launchable DLC",
+  "categories": [{ "path": "applications" }, { "path": "addons" }, { "path": "addons/launchable" }],
+  "mainGameItem": { "id": "catalog-game" }
+}

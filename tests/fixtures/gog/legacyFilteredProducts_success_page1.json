@@ -1,0 +1,12 @@
+{
+  "page": 1,
+  "totalPages": 1,
+  "products": [
+    {
+      "id": "hades",
+      "title": "Hades",
+      "slug": "hades",
+      "playtime": 45
+    }
+  ]
+}

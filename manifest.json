@@ -1,0 +1,71 @@
+{
+  "manifest_version": 3,
+  "name": "LootCheck",
+  "version": "0.1.0",
+  "description": "Shows a quiet ownership bar when you already own a game on the current page.",
+  "icons": {
+    "16": "assets/icons/icon-16.png",
+    "32": "assets/icons/icon-32.png",
+    "48": "assets/icons/icon-48.png",
+    "96": "assets/icons/icon-96.png",
+    "128": "assets/icons/icon-128.png"
+  },
+  "permissions": ["storage", "unlimitedStorage", "alarms"],
+  "host_permissions": [
+    "https://partner.steam-api.com/*",
+    "https://store.steampowered.com/*",
+    "https://steamcommunity.com/*",
+    "https://www.gog.com/*",
+    "https://menu.gog.com/*",
+    "https://www.epicgames.com/*",
+    "https://account-public-service-prod03.ol.epicgames.com/*",
+    "https://library-service.live.use1a.on.epicgames.com/*",
+    "https://catalog-public-service-prod06.ol.epicgames.com/*",
+    "https://gaming.amazon.com/*",
+    "https://luna.amazon.com/*",
+    "https://luna.amazon.ca/*",
+    "https://www.amazon.com/*",
+    "https://www.amazon.ca/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content/pageScanner.js"],
+      "run_at": "document_idle",
+      "all_frames": false
+    },
+    {
+      "matches": [
+        "https://steamcommunity.com/*",
+        "https://store.steampowered.com/*",
+        "https://gaming.amazon.com/*",
+        "https://luna.amazon.com/*",
+        "https://luna.amazon.ca/*",
+        "https://www.amazon.com/*",
+        "https://www.amazon.ca/*"
+      ],
+      "js": ["content/assistedSessionBridge.js"],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ],
+  "background": {
+    "scripts": ["background/serviceWorker.js"]
+  },
+  "action": {
+    "default_title": "Open LootCheck settings",
+    "default_icon": {
+      "16": "assets/icons/icon-16.png",
+      "32": "assets/icons/icon-32.png"
+    }
+  },
+  "options_ui": {
+    "page": "options/options.html",
+    "open_in_tab": true
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "lootcheck@example.local"
+    }
+  }
+}

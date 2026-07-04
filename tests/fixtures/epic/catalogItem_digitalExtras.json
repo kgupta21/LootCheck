@@ -1,0 +1,5 @@
+{
+  "id": "catalog-extras",
+  "title": "Fixture Digital Extras",
+  "categories": [{ "path": "applications" }, { "path": "digitalextras" }]
+}

@@ -1,0 +1,26 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="LootCheck">
+  <defs>
+    <linearGradient id="gold" x1="28" y1="29" x2="99" y2="103" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD979"/>
+      <stop offset="0.55" stop-color="#D9912B"/>
+      <stop offset="1" stop-color="#A96A18"/>
+    </linearGradient>
+    <linearGradient id="emerald" x1="45" y1="77" x2="89" y2="77" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#63D6B4"/>
+      <stop offset="1" stop-color="#10A374"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="30" fill="#0F1412"/>
+  <path d="M25 59C25 43.536 37.536 31 53 31H75C90.464 31 103 43.536 103 59V65H25V59Z" fill="url(#gold)"/>
+  <path d="M36 59C36 49.059 44.059 41 54 41H74C83.941 41 92 49.059 92 59V65H36V59Z" fill="#17211F"/>
+  <path d="M25 60H103V90C103 98.284 96.284 105 88 105H40C31.716 105 25 98.284 25 90V60Z" fill="#17211F"/>
+  <path d="M25 60H103V73H25V60Z" fill="url(#gold)"/>
+  <path d="M30 90V60H43V104H40C31.716 104 25 97.284 25 89V87C26.444 88.829 28.105 89.793 30 90Z" fill="url(#gold)"/>
+  <path d="M98 90V60H85V104H88C96.284 104 103 97.284 103 89V87C101.556 88.829 99.895 89.793 98 90Z" fill="url(#gold)"/>
+  <path d="M56 33H72V75H56V33Z" fill="url(#gold)"/>
+  <rect x="51" y="53" width="26" height="24" rx="8" fill="url(#gold)"/>
+  <circle cx="64" cy="64" r="5" fill="#0F1412"/>
+  <path d="M61.5 68H66.5L68 77H60L61.5 68Z" fill="#0F1412"/>
+  <circle cx="64" cy="82" r="28" fill="#101513" stroke="url(#gold)" stroke-width="6"/>
+  <path d="M50 82L60 92L82 68" stroke="url(#emerald)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

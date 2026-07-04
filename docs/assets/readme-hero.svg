@@ -1,0 +1,31 @@
+<svg width="1440" height="620" viewBox="0 0 1440 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="LootCheck interface preview">
+  <rect width="1440" height="620" fill="#0F1412"/>
+  <rect x="88" y="76" width="1264" height="468" rx="28" fill="#151B18" stroke="#2C3834"/>
+  <rect x="128" y="116" width="56" height="56" rx="14" fill="#101513"/>
+  <path d="M139 143C139 134.7 145.7 128 154 128H166C174.3 128 181 134.7 181 143V146H139V143Z" fill="#D9912B"/>
+  <path d="M145 143C145 137.5 149.5 133 155 133H165C170.5 133 175 137.5 175 143V146H145V143Z" fill="#17211F"/>
+  <path d="M139 145H181V161C181 166 177 170 172 170H148C143 170 139 166 139 161V145Z" fill="#17211F"/>
+  <path d="M139 145H181V153H139V145Z" fill="#D9912B"/>
+  <rect x="156" y="139" width="8" height="25" fill="#FFD979"/>
+  <rect x="153" y="149" width="14" height="13" rx="4" fill="#D9912B"/>
+  <circle cx="160" cy="159" r="15" fill="#101513" stroke="#FFD979" stroke-width="3"/>
+  <path d="M152 159L158 165L170 152" stroke="#2BBF94" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="208" y="140" fill="#63D6B4" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800" letter-spacing="3">GAME LIBRARY CHECKER</text>
+  <text x="208" y="196" fill="#EDF4F1" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="850">LootCheck</text>
+  <text x="208" y="238" fill="#9FAEA9" font-family="Inter, Arial, sans-serif" font-size="22">A Firefox extension that quietly tells you when you already own the game.</text>
+  <rect x="128" y="304" width="374" height="146" rx="12" fill="#101613" stroke="#2C3834"/>
+  <text x="154" y="342" fill="#EDF4F1" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800">Providers</text>
+  <circle cx="160" cy="382" r="7" fill="#2BBF94"/>
+  <text x="180" y="389" fill="#C9D7D2" font-family="Inter, Arial, sans-serif" font-size="18">Steam browser-session import</text>
+  <circle cx="160" cy="418" r="7" fill="#D9912B"/>
+  <text x="180" y="425" fill="#C9D7D2" font-family="Inter, Arial, sans-serif" font-size="18">GOG, Epic, Amazon Games</text>
+  <rect x="534" y="304" width="370" height="146" rx="12" fill="#101613" stroke="#2C3834"/>
+  <text x="560" y="342" fill="#EDF4F1" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800">Local Library</text>
+  <rect x="560" y="368" width="310" height="14" rx="7" fill="#2C3834"/>
+  <rect x="560" y="398" width="250" height="14" rx="7" fill="#2C3834"/>
+  <rect x="560" y="428" width="286" height="14" rx="7" fill="#2C3834"/>
+  <rect x="936" y="304" width="334" height="146" rx="12" fill="#14392F" stroke="#2BBF94"/>
+  <text x="962" y="342" fill="#EDF4F1" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800">Positive banner</text>
+  <text x="962" y="382" fill="#B6D9CD" font-family="Inter, Arial, sans-serif" font-size="18">Shows only when a match is owned.</text>
+  <path d="M964 419L984 438L1028 389" stroke="#63D6B4" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

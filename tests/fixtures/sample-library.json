@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Baldur's Gate 3",
+    "source": "manual",
+    "aliases": ["Baldurs Gate III"],
+    "platforms": ["PC"]
+  },
+  {
+    "title": "Hades",
+    "source": "manual",
+    "platforms": ["PC"]
+  },
+  {
+    "title": "The Witcher 3: Wild Hunt - Complete Edition",
+    "source": "manual",
+    "aliases": [
+      "The Witcher 3: Wild Hunt",
+      "Witcher 3",
+      "The Witcher III: Wild Hunt"
+    ],
+    "platforms": ["PC"]
+  }
+]

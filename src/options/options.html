@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LootCheck</title>
+    <link rel="stylesheet" href="./options.css" />
+  </head>
+  <body>
+    <main>
+      <header class="app-header">
+        <div class="brand-lockup">
+          <img src="../assets/brand-mark.png" alt="" width="56" height="56" />
+          <div>
+            <h1>LootCheck</h1>
+            <p>Track your game libraries and spot titles you already own while browsing.</p>
+          </div>
+        </div>
+      </header>
+
+      <section class="panel" aria-labelledby="providers-heading">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Accounts and imports</p>
+            <h2 id="providers-heading">Providers</h2>
+          </div>
+          <p>Connect stores, import browser sessions, or load a manual file.</p>
+        </div>
+        <div class="provider-grid manual-provider-grid">
+          <article class="provider-card">
+            <h3>Manual Import</h3>
+            <p>Import owned games from JSON or CSV. No account connection required.</p>
+            <label class="file-button">
+              Import JSON/CSV
+              <input id="manual-import-input" type="file" accept=".json,.csv,application/json,text/csv" />
+            </label>
+          </article>
+        </div>
+        <div id="provider-status-grid" class="provider-grid"></div>
+        <fieldset class="sync-settings">
+          <legend>Scheduled Sync</legend>
+          <label class="checkbox-label">
+            <input id="scheduled-sync-enabled" type="checkbox" />
+            Enable scheduled sync
+          </label>
+          <label>
+            Interval hours
+            <input id="scheduled-sync-interval" type="number" min="1" value="24" />
+          </label>
+          <div id="scheduled-sync-providers" class="provider-checkboxes"></div>
+          <button id="save-sync-settings-button" type="button">Save sync settings</button>
+        </fieldset>
+        <p id="status" role="status" aria-live="polite"></p>
+      </section>
+
+      <section class="panel" aria-labelledby="library-heading">
+        <div class="section-toolbar">
+          <div>
+            <p class="eyebrow">Library browser</p>
+            <h2 id="library-heading">Library</h2>
+          </div>
+          <button id="clear-data-button" type="button">Delete all data</button>
+        </div>
+        <div class="filter-grid">
+          <label>
+            Preset
+            <select id="filter-preset-select"></select>
+          </label>
+          <label>
+            Search titles
+            <input id="library-search" type="search" autocomplete="off" placeholder="Baldur's Gate 3" />
+          </label>
+          <label>
+            Providers
+            <select id="provider-filter" multiple size="4"></select>
+          </label>
+          <label>
+            Platforms
+            <select id="platform-filter" multiple size="4"></select>
+          </label>
+          <label>
+            Tags
+            <select id="tag-filter" multiple size="4"></select>
+          </label>
+          <label>
+            Categories
+            <select id="category-filter" multiple size="4"></select>
+          </label>
+          <label>
+            Installed
+            <select id="installed-filter">
+              <option value="">Any</option>
+              <option value="true">Installed</option>
+              <option value="false">Uninstalled</option>
+            </select>
+          </label>
+          <label>
+            Has playtime
+            <select id="playtime-filter">
+              <option value="">Any</option>
+              <option value="true">Has playtime</option>
+              <option value="false">No playtime</option>
+            </select>
+          </label>
+          <label>
+            Release years
+            <input id="release-years-filter" type="text" inputmode="numeric" placeholder="2020, 2023" />
+          </label>
+          <label class="checkbox-label">
+            <input id="and-filtering" type="checkbox" />
+            Require all selected values
+          </label>
+          <label>
+            Sort by
+            <select id="sort-order">
+              <option value="title">Title</option>
+              <option value="provider">Provider</option>
+              <option value="platform">Platform</option>
+              <option value="releaseYear">Release year</option>
+              <option value="dateAdded">Date added</option>
+              <option value="dateModified">Date modified</option>
+              <option value="lastPlayed">Last played</option>
+              <option value="playtime">Playtime</option>
+              <option value="installed">Installed</option>
+            </select>
+          </label>
+          <label>
+            Direction
+            <select id="sort-direction">
+              <option value="asc">Ascending</option>
+              <option value="desc">Descending</option>
+            </select>
+          </label>
+        </div>
+        <div class="filter-actions">
+          <button id="save-preset-button" type="button">Save preset</button>
+          <button id="delete-preset-button" type="button">Delete preset</button>
+          <button id="reset-filters-button" type="button">Reset filters</button>
+          <span id="result-count" aria-live="polite"></span>
+        </div>
+        <div class="table-shell">
+          <table>
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Owned on</th>
+                <th>Platforms</th>
+                <th>Tags / Categories</th>
+                <th>Installed</th>
+                <th>Playtime</th>
+                <th>Last played</th>
+                <th>Last synced</th>
+              </tr>
+            </thead>
+            <tbody id="library-table-body"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <details class="panel">
+        <summary>Privacy</summary>
+        <p>Imported library data is stored locally in this extension's IndexedDB database. LootCheck does not send your library to an external backend.</p>
+      </details>
+    </main>
+    <script type="module" src="./options.js"></script>
+  </body>
+</html>

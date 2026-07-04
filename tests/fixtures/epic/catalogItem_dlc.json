@@ -1,0 +1,6 @@
+{
+  "id": "catalog-dlc",
+  "title": "Fixture DLC",
+  "categories": [{ "path": "applications" }, { "path": "addons" }],
+  "mainGameItem": { "id": "catalog-game" }
+}

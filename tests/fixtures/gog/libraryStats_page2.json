@@ -1,0 +1,12 @@
+{
+  "page": 2,
+  "totalPages": 2,
+  "items": [
+    {
+      "id": "witcher3-complete",
+      "title": "The Witcher 3: Wild Hunt - Complete Edition",
+      "slug": "the_witcher_3_wild_hunt_complete_edition",
+      "playtimeMinutes": 120
+    }
+  ]
+}
