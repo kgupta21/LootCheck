@@ -168,6 +168,11 @@ LootCheck requests store-specific host permissions so background scripts and ass
 
 GitHub: [kgupta21/LootCheck](https://github.com/kgupta21/LootCheck)
 
+Project site: [kgupta21.github.io/LootCheck](https://kgupta21.github.io/LootCheck/)
+
+The static promotional site lives in [`docs/`](docs/). GitHub Pages can publish it from
+`main` using the included workflow, or directly from the `docs` folder in repository settings.
+
 ## License
 
 Code is licensed under AGPL-3.0-or-later. LootCheck branding is reserved; see `TRADEMARK.md` and `COMMERCIAL_LICENSE.md`.
